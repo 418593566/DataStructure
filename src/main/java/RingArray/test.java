@@ -3,6 +3,9 @@ package RingArray;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * 环形队列
+ */
 public class test {
     public static void main(String[] args) {
         Ring r = new Ring(5);

@@ -2,6 +2,9 @@ package ArrayQueue;
 
 import java.util.Scanner;
 
+/**
+ * 单向队列
+ */
 public class test {
     public static void main(String[] args) {
         ArrayQueue aay = new ArrayQueue(5);

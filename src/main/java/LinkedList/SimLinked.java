@@ -1,5 +1,10 @@
 package LinkedList;
 
+import java.util.Stack;
+
+/**
+ * 单链表
+ */
 public class SimLinked {
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
@@ -11,14 +16,14 @@ public class SimLinked {
         HeroNode n6 = new HeroNode(05,"张飞","是的地方");
         HeroNode n7 = new HeroNode(07,"张飞","是的地方");
         HeroNode n8 = new HeroNode(8,"张飞","是的地方");
-        l.addOderby(node);
-        l.addOderby(node2);
-        l.addOderby(node3);
-        l.addOderby(node4);
-//        l.addOderby(n5);
-//        l.addOderby(n6);
-//        l.addOderby(n7);
-//        l.addOderby(n8);
+//        l.addOderby(node);
+//        l.addOderby(node2);
+//        l.addOderby(node3);
+//        l.addOderby(node4);
+        l.add(node);
+        l.add(node2);
+        l.add(node3);
+        l.add(node4);
         l.list();
 //        l.list();
 //        HeroNode newH = new HeroNode(02,"里斯","士大夫");
@@ -33,9 +38,12 @@ public class SimLinked {
 //        System.out.println(l.getLength());
 //
 //        l.getUnkown(3);
-        System.out.println("********************");
-        rollBack(l.getHead());
-        l.list();
+//        System.out.println("********************");
+//        rollBack(l.getHead());
+//        l.list();
+
+        System.out.println("*************");
+        l.show();
     }
 
     /**
@@ -198,6 +206,24 @@ class LinkedList {
             }
             System.out.println(temp);
             temp = temp.next;
+        }
+    }
+
+    /**
+     * 反打
+     */
+    public void show(){
+        Stack<HeroNode> stack = new Stack<>();
+        HeroNode temp = head.next;
+        if (head.next==null){
+            return;
+        }
+        while (temp!=null) {
+            stack.add(temp);
+            temp = temp.next;
+        }
+        while (stack.size()>0){
+            System.out.println(stack.pop());
         }
     }
 

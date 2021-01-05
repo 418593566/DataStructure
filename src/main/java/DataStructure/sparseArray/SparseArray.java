@@ -2,6 +2,9 @@ package DataStructure.sparseArray;
 
 import java.io.*;
 
+/**
+ * 稀疏数组
+ */
 public class SparseArray {
     public static void main(String[] args) throws IOException {
         int[][] arrs = new int[6][7];
