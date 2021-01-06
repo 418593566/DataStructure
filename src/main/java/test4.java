@@ -2,14 +2,13 @@ import java.util.Stack;
 
 public class test4 {
     public static void main(String[] args) {
-        Stack<Object> sta = new Stack<>();
-        sta.add("张飞");
-        sta.add("sda");
-        sta.add("we");
-        sta.add("xv");
-
-        while (sta.size()>0) {
-            System.out.println(sta.pop());
+        Stack<Object> stack = new Stack<>();
+        stack.add("sdf");
+        stack.add("sss");
+        stack.add("aaa");
+        stack.push("sdfdddd");
+        while (stack.size()>0){
+            System.out.println(stack.pop());
         }
     }
 }

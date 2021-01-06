@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5719d41d-2887-4427-96d3-2acad41c41f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DoublyLinkedList/SimList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OneWayList/SimWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayStack/LinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayStack/SimStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayQueue/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayQueue/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructure/sparseArray/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructure/sparseArray/SparseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/SimLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/SimLinked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OneWayList/SimWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OneWayList/SimWay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RingArray/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RingArray/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayQueue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayQueue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayQueue/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayQueue/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataStructure/sparseArray/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataStructure/sparseArray/SparseArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DoublyLinkedList/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DoublyLinkedList/HeroNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DoublyLinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DoublyLinkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DoublyLinkedList/SimList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DoublyLinkedList/SimList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LinkedList/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedList/HeroNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedList/LinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LinkedList/SimLinked.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LinkedList/SimLinked.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OneWayList/SimWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OneWayList/SimWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RingArray/Ring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RingArray/Ring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RingArray/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RingArray/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test4.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +79,13 @@
       <recent name="D:\work\demo\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimWay">
-    <configuration name="SimLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SimLinked" />
+  <component name="RunManager" selected="Application.LinkedListStack">
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayStack.LinkedListStack" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="ArrayStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoublyLinkedList.SimList" />
+    <configuration name="SimStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayStack.SimStack" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DoublyLinkedList.*" />
+          <option name="PATTERN" value="ArrayStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,9 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RingArray.test" />
       <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RingArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimWay" />
-        <item itemvalue="Application.SimList" />
-        <item itemvalue="Application.SimLinked" />
+        <item itemvalue="Application.LinkedListStack" />
+        <item itemvalue="Application.SimStack" />
         <item itemvalue="Application.test4" />
-        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.SimWay" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +184,7 @@
       <workItem from="1609121726592" duration="12337000" />
       <workItem from="1609206417512" duration="22797000" />
       <workItem from="1609241591926" duration="20091000" />
-      <workItem from="1609379180477" duration="46883000" />
+      <workItem from="1609379180477" duration="63586000" />
     </task>
     <servers />
   </component>
@@ -188,10 +200,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1426" y="723" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608724156954" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1609813835994">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1609926293040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609813835994" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609926293040" />
     <state x="675" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609827150333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,38 +216,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="321" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609400036374" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1609832588842">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609832588842" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1609832588842">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609832588842" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1609832588842">
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609832588842" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1609832588842">
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609832588842" />
-    <state width="1877" height="208" key="GridCell.Tab.1.bottom" timestamp="1609829051935">
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
+    <state width="1877" height="249" key="GridCell.Tab.1.bottom" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609829051935" />
-    <state width="1877" height="208" key="GridCell.Tab.1.center" timestamp="1609829051935">
+    <state width="1877" height="249" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
+    <state width="1877" height="249" key="GridCell.Tab.1.center" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609829051935" />
-    <state width="1877" height="208" key="GridCell.Tab.1.left" timestamp="1609829051935">
+    <state width="1877" height="249" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
+    <state width="1877" height="249" key="GridCell.Tab.1.left" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609829051935" />
-    <state width="1877" height="208" key="GridCell.Tab.1.right" timestamp="1609829051935">
+    <state width="1877" height="249" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
+    <state width="1877" height="249" key="GridCell.Tab.1.right" timestamp="1609928555404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609829051935" />
+    <state width="1877" height="249" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609928555404" />
     <state x="509" y="356" key="Maven.ArtifactSearchDialog" timestamp="1608722046161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

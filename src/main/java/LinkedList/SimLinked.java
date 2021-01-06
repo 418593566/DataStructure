@@ -25,6 +25,8 @@ public class SimLinked {
         l.add(node3);
         l.add(node4);
         l.list();
+        System.out.println("***************");
+        l.getUnkown(2);
 //        l.list();
 //        HeroNode newH = new HeroNode(02,"里斯","士大夫");
 //        l.update(newH);
@@ -41,9 +43,6 @@ public class SimLinked {
 //        System.out.println("********************");
 //        rollBack(l.getHead());
 //        l.list();
-
-        System.out.println("*************");
-        l.show();
     }
 
     /**
@@ -73,7 +72,7 @@ public class SimLinked {
 /**
  * 节点
  */
-class HeroNode {
+class   HeroNode {
     public int no;
     public String name;
     public String nickName;

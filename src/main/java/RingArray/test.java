@@ -80,6 +80,7 @@ class Ring{
         }
     }
 
+    //有效数据
     public int size(){ return (rear+maxSize-front)%maxSize;}
 
 }
