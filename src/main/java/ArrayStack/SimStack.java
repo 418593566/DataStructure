@@ -7,10 +7,10 @@ package ArrayStack;
 public class SimStack {
     public static void main(String[] args) {
         ArrayStack stack = new ArrayStack(5);
-        stack.push(12);
-        stack.push(11);
-        stack.push(14);
-        stack.push(15);
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
 
         stack.show();
         System.out.println("****************");
@@ -62,8 +62,9 @@ class ArrayStack {
         if (isEmpty()) {
             throw new RuntimeException("栈是空的...");
         }
+        int value = stack[top];
         top--;
-        return stack[top];
+        return value;
     }
 
     /**
