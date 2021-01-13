@@ -6,8 +6,8 @@ package OneWayList;
 public class SimWay {
     public static void main(String[] args) {
         OneWayLinkedList one = new OneWayLinkedList();
-        one.add(41);
-        one.count(1, 3, 41);
+        one.add(7);
+        one.count(1, 3, 7);
 
     }
 }

@@ -1,5 +1,6 @@
 package ArrayStack;
 
+
 import java.util.Stack;
 
 /**
@@ -8,35 +9,32 @@ import java.util.Stack;
 public class LinkedListStack {
     public static void main(String[] args) {
         LinkedList lis = new LinkedList();
-        StackNode h1 = new StackNode(1,"张飞");
-        StackNode h2 = new StackNode(2,"关羽");
-        StackNode h3 = new StackNode(3,"刘备");
+        StackNode h1 = new StackNode(1, "张飞");
+        StackNode h2 = new StackNode(2, "关羽");
+        StackNode h3 = new StackNode(3, "刘备");
         lis.push(h1);
         lis.push(h2);
         lis.push(h3);
+        lis.show();
+        System.out.println("******************");
+        int p = lis.pop();
+        System.out.println(p);
+        lis.pop();
         lis.show();
         System.out.println(lis.size());
     }
 }
 
-class StackNode{
-    private StackNode next;
+class StackNode {
+    public StackNode next;
+    public StackNode prev;
     private int no;
     private String name;
 
-    public StackNode(int no,String name){
-        this.no=no;
-        this.name=name;
+    public StackNode(int no, String name) {
+        this.no = no;
+        this.name = name;
     }
-
-    public StackNode getNext() {
-        return next;
-    }
-
-    public void setNext(StackNode next) {
-        this.next = next;
-    }
-
     public int getNo() {
         return no;
     }
@@ -62,73 +60,79 @@ class StackNode{
     }
 }
 
-class LinkedList{
-    private StackNode head = new StackNode(0,"");
+class LinkedList {
+    private StackNode head = new StackNode(0, "");
 
     /**
      * 入栈
+     *
      * @param node
      */
-    public void push(StackNode node){
+    public void push(StackNode node) {
         StackNode temp = head;
-        while (true){
-            if(temp.getNext()==null){
+        while (true) {
+            if (temp.next == null) {
                 break;
             }
-            temp=temp.getNext();
+            temp = temp.next;
         }
-        temp.setNext(node);
+        temp.next=node;
+        node.prev=temp;
     }
 
     /**
      * 出栈
+     *
      * @return
      */
-    public int pop(){
+    public int pop() {
+        StackNode temp = head.next;
+        boolean flag = false;
+        while (true){
+            if (temp.next==null){
+                flag=true;
+                break;
+            }
+            temp=temp.next;
+        }
+        if (flag){
+            temp.next.prev=temp.prev;
+            if (temp.prev==head){
+                System.out.println("哈哈哈");
+                return 0;
+            }
+        }
 
-        return 0;
+        return temp.getNo();
     }
 
-//    public void show(){
-//        StackNode temp = head;
-//        int size = size();
-//        if (head.getNext()==null){
-//            System.out.println("栈是空的\n你个棒槌...");
-//            return;
-//        }
-//        for (int i = size; i >= 0; i--) {
-//            temp=temp.getNext();
-//        }
-//        System.out.println(temp);
-//    }
-
-    public void show(){
+    public void show() {
         Stack<Object> stack = new Stack<>();
-        StackNode temp = head.getNext();
+        StackNode temp = head.next;
         while (temp != null) {
             if (head == null) {
                 break;
             }
             stack.push(temp);
-            temp=temp.getNext();
+            temp = temp.next;
         }
-        while (stack.size()>0){
+        while (stack.size() > 0) {
             System.out.println(stack.pop());
         }
     }
 
-    public int size(){
-        StackNode temp = head.getNext();
-        int count=0;
-        if (head==null) {
+    public int size() {
+        StackNode temp = head.next;
+        int count = 0;
+        if (head == null) {
             throw new RuntimeException("栈为空...");
         }
-        while (temp!=null){
-            if (temp==null) {
+        while (temp != null) {
+            if (temp == null) {
                 return 0;
             }
             count++;
-            temp=temp.getNext();
+            temp = temp.next;
         }
         return count;
     }

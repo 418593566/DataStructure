@@ -26,8 +26,9 @@ public class SimLinked {
         l.add(node4);
         l.list();
         System.out.println("***************");
-        l.getUnkown(2);
-//        l.list();
+        l.delete(2);
+        l.delete(1);
+        l.list();
 //        HeroNode newH = new HeroNode(02,"里斯","士大夫");
 //        l.update(newH);
 //        System.out.println("修改之后...");

@@ -1,5 +1,8 @@
 package counter;
 
+/**
+ * 中缀表达式
+ */
 public class CounterTest {
     public static void main(String[] args) {
         //存储数字
@@ -9,8 +12,11 @@ public class CounterTest {
         String expression = "7*8-1+5";
         int num1 = 0;
         int num2 = 0;
+        //运算符
         int oper = 0;
+        //运算结果
         int sum = 0;
+        //扫描表达式
         int index = 0;
         char ch = ' ';
 

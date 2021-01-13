@@ -2,7 +2,6 @@ public class test2 {
     public static void main(String[] args) {
         String str = "java,java,hello";
         String s = str.replaceAll("java", "php");
-        System.out.println(s);
 
         int[] arrMax = new int[]{12,12,34,54,3425,2};
 
@@ -16,7 +15,7 @@ public class test2 {
             }
         }
         for (int i = 0; i < arrMax.length; i++) {
-            System.out.println(arrMax[i]);
+            System.out.printf("%d\t",arrMax[i]);
         }
     }
 }
