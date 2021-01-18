@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class PolishDemo {
     public static void main(String[] args) {
-        String str = "4 5 * 5 10 + 5 / +";
+        String str = "5 6 + 3 * 3 /";
         List list = getList(str);
         System.out.println(list);
         int count = counter(list);
