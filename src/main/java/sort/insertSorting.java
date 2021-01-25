@@ -6,6 +6,7 @@ import java.util.Arrays;
  * 插入排序
  *     将数组arr[0]当作有序数组
  *     再扫描 arr[i+1] ...arr[n-1]
+ *     只要扫描到一个比前面的小 就插入
  *     插入到有序
  */
 public class insertSorting {

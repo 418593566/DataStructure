@@ -17,9 +17,12 @@ public class PostfixExpression {
 //        int counter = counter(lis);
 //        System.out.println(counter);
 
-        String res = "3 4 1 - * 3 / 10 +";
-        List<String> list = getList(res);
-        int counter = counter(list);
+//        String res = "3 10 * 5 + 6 - 3 2 - +";
+//        List<String> list = getList(res);
+        String res = "3*10+5-6+(3-2)";
+        List suffix = suffix(res);
+        List lis = getArrLis(suffix);
+        int counter = counter(lis);
         System.out.println(counter);
     }
 
