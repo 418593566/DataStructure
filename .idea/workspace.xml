@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5719d41d-2887-4427-96d3-2acad41c41f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/SimEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/ArrBinarySreach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/counter/PostfixExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/PostfixExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seek/FibonacciSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seek/FibonacciSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/insertSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/insertSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/counter/PostfixExpression$Opertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/PostfixExpression$Opertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/counter/PostfixExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/PostfixExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/seek/FibonacciSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seek/FibonacciSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/insertSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/insertSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/HeroNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/SimBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/SimBinary.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +74,9 @@
       <recent name="enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
+  <component name="RunManager" selected="Application.ArrBinarySreach">
+    <configuration name="ArrBinarySreach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.ArrBinarySreach" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seek.FibonacciSearch" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seek.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrBinarySreach" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.PostfixExpression" />
         <item itemvalue="Application.SimEmp" />
         <item itemvalue="Application.demo2" />
-        <item itemvalue="Application.FibonacciSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +192,7 @@
       <workItem from="1611279759095" duration="16240000" />
       <workItem from="1611366380797" duration="5944000" />
       <workItem from="1611539391377" duration="12278000" />
+      <workItem from="1611625944247" duration="13637000" />
     </task>
     <servers />
   </component>
@@ -234,38 +228,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="987" y="321" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611539440785" />
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1611576144516">
+    <state width="1877" height="142" key="GridCell.Tab.0.bottom" timestamp="1611655896106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
-    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1611576144516">
+    <state width="1877" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611655896106" />
+    <state width="1877" height="142" key="GridCell.Tab.0.center" timestamp="1611655896106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
-    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1611576144516">
+    <state width="1877" height="142" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611655896106" />
+    <state width="1877" height="142" key="GridCell.Tab.0.left" timestamp="1611655896106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
-    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1611576144516">
+    <state width="1877" height="142" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611655896106" />
+    <state width="1877" height="142" key="GridCell.Tab.0.right" timestamp="1611655896106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1611576144516">
+    <state width="1877" height="142" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611655896106" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1611654758377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
-    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1611576144516">
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611654758377" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1611654758377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
-    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1611576144516">
+    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611654758377" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1611654758377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
-    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1611576144516">
+    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611654758377" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1611654758377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611576144516" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611654758377" />
     <state x="509" y="356" key="Maven.ArtifactSearchDialog" timestamp="1608722046161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
