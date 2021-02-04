@@ -29,6 +29,12 @@ public class BinarySearch {
         System.out.println(list);
     }
 
+    /**
+     * 快速排序
+     * @param arr
+     * @param left
+     * @param right
+     */
     public static void sort(int[] arr, int left, int right) {
         int l = left;
         int r = right;

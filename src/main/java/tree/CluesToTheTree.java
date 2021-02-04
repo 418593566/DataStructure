@@ -38,6 +38,8 @@ public class CluesToTheTree {
         TreadedTree right = t5.getRight();
         System.out.println(right);
 
+        System.out.println();
+        tree.treadedShow();
     }
 }
 
@@ -144,6 +146,24 @@ class TreadedTree {
             this.right.midOrder();
         }
     }
+
+    public void preDel(int no) {
+        if (this == null) {
+            return;
+        }
+        if (this.left != null && this.left.no == no) {
+            this.left = null;
+        }
+        if (this.right != null && this.right.no == no) {
+            this.right = null;
+        }
+        if (this.left != null) {
+            this.left.preDel(no);
+        }
+        if (this.right != null) {
+            this.right.preDel(no);
+        }
+    }
 }
 
 
@@ -155,7 +175,7 @@ class SimTreadedTree {
         this.root = root;
     }
 
-    public void midTree(){
+    public void midTree() {
         this.midTree(root);
     }
 
@@ -181,12 +201,25 @@ class SimTreadedTree {
         }
     }
 
+    public void preDel(int no) {
+        if (this != null) {
+            if (this.root.getNo() == no) {
+                this.root = null;
+            } else {
+                this.root.preDel(no);
+            }
+        } else {
+            return;
+        }
+    }
+
     /**
      * 对二叉树进行中序线索化二叉树
-     *      先 处理 左结点
-     *      处理当前结点
-     *           前驱结点   后继结点
-     *      处理右结点
+     * 先 处理 左结点
+     * 处理当前结点
+     * 前驱结点   后继结点
+     * 处理右结点
+     *
      * @param node 需要线索化的结点
      */
     public void midTree(TreadedTree node) {
@@ -202,6 +235,7 @@ class SimTreadedTree {
         //处理前驱结点
         if (node.getLeft() == null) {
             node.setLeft(pre);
+            node.setLeftType(1);
         }
         //因为是中序  所以第一次左叶子节点的前驱结点为空
         //右递归 顶替了node的位置
@@ -218,5 +252,33 @@ class SimTreadedTree {
         pre = node;
         //右节点 线索化
         midTree(node.getRight());
+    }
+
+    /**
+     * 线索化二叉树遍历
+     */
+    public void treadedShow() {
+        TreadedTree node = root;
+        while (node != null) {
+            /**
+             * 循环找到 leftType = 1 的结点
+             * root 的 leftType = 0
+             */
+            while (node.getLeftType() == 0) {
+                //node 就继续往它的下边找
+                node = node.getLeft();
+        }
+            //输出找到leftType = 1 的结点
+            System.out.println(node);
+            //当前结点的rightType = 1 后继结点
+            while (node.getRightType() == 1) {
+                //将当前的结点 移至当前结点的后继结点
+                node = node.getRight();
+                //输出当前的后继结点
+                System.out.println(node);
+            }
+            //往下找 当前结点的后继结点
+            node = node.getRight();
+        }
     }
 }

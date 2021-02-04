@@ -1,10 +1,8 @@
 package seek;
 
-import java.util.Arrays;
-
 /**
  * 插值查找
- * 适应mid
+ * 自适应 (中间值)mid
  * mid : left + (right - left) * (fanValue - arr[left]) / (arr[right] - arr[left])
  */
 public class InsertValueSearch {
