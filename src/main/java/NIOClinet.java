@@ -63,7 +63,7 @@ public class NIOClinet {
     }
 
     public static void main(String[] args) throws IOException {
-        NIOClinet nioClinet = new NIOClinet();
+        final NIOClinet nioClinet = new NIOClinet();
         //接收数据
         new Thread(){
             public  void run(){

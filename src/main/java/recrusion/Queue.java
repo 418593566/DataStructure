@@ -44,14 +44,17 @@ public class Queue {
      */
     public boolean logic(int n) {
         for (int i = 0; i < n; i++) {
-            //arr[n] == arr[i]   arr[i]是 上一个
-            // 列是否相等
-            //Math.abs(n - i) == Math.abs(arr[n] - arr[i])
-            //  -->Math.abs(n - i) : x 坐标 的差
-            //     Math.abs(arr[n] - arr[i]) : y 坐标 的差
-            //Math.abs(n - i) == Math.abs(arr[n] - arr[i])
-            //'.'：n = 2 ; i = 0
-            //.'.：arr[n] = 3；arr[i] = 1
+
+            /**
+             *   arr[n] == arr[i]   arr[i]是 上一个
+             *   列是否相等
+             *   Math.abs(n - i) == Math.abs(arr[n] - arr[i])
+             *    -->Math.abs(n - i) : x 坐标 的差
+             *       Math.abs(arr[n] - arr[i]) : y 坐标 的差
+             *   Math.abs(n - i) == Math.abs(arr[n] - arr[i])
+             *  '.'：n = 2 ; i = 0
+             *  .'.：arr[n] = 3；arr[i] = 1
+             */
             if (arr[n] == arr[i] || Math.abs(n - i) == Math.abs(arr[n] - arr[i])) {
                 return false;
             }

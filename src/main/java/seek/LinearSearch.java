@@ -10,7 +10,7 @@ public class LinearSearch {
         if (s == -1) {
             System.out.println("没有找到...");
         }else {
-            System.err.println("arrIndex:"+s);
+            System.err.printf("arr[%d]=%d",s,arr[s]);
         }
     }
 

@@ -80,6 +80,9 @@ class Node implements Comparable<Node> {
         return this.value - o.value;
     }
 
+    /**
+     * 前序遍历
+     */
     public void preTree() {
         System.out.println(this);
         if (this.left != null) {

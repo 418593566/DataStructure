@@ -27,11 +27,11 @@ import java.util.Date;
  */
 public class HeapSorting {
     public static void main(String[] args) {
-        //int[] arr = new int[]{4, 8, 5, 9, 2};
-        int[] arr = new int[8000000];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] =(int)(Math.random()*8000000);
-        }
+        int[] arr = new int[]{4,23,3,44,5,6};
+        //int[] arr = new int[8000000];
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] =(int)(Math.random()*8000000);
+//        }
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
         System.out.println("开始时间"+format.format(date));
@@ -56,7 +56,7 @@ public class HeapSorting {
              */
             adjustHeap(arr,0,j);
         }
-        //System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
     }
 
     /**
